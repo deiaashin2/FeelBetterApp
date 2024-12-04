@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C7723EE62CED67680088BE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7723EC82CED67660088BE9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7723ECF2CED67660088BE9E;
+			remoteInfo = "Feel Better App";
+		};
+		C7723EF02CED67680088BE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7723EC82CED67660088BE9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7723ECF2CED67660088BE9E;
+			remoteInfo = "Feel Better App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7723ED02CED67660088BE9E /* Feel Better App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feel Better App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7723EE52CED67680088BE9E /* Feel Better AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feel Better AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7723EEF2CED67680088BE9E /* Feel Better AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feel Better AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7723ED22CED67660088BE9E /* Feel Better App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Feel Better App";
+			sourceTree = "<group>";
+		};
+		C7723EE82CED67680088BE9E /* Feel Better AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Feel Better AppTests";
+			sourceTree = "<group>";
+		};
+		C7723EF22CED67680088BE9E /* Feel Better AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Feel Better AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7723ECD2CED67660088BE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7723EE22CED67680088BE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7723EEC2CED67680088BE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7723EC72CED67660088BE9E = {
+			isa = PBXGroup;
+			children = (
+				C7723ED22CED67660088BE9E /* Feel Better App */,
+				C7723EE82CED67680088BE9E /* Feel Better AppTests */,
+				C7723EF22CED67680088BE9E /* Feel Better AppUITests */,
+				C7723ED12CED67660088BE9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7723ED12CED67660088BE9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7723ED02CED67660088BE9E /* Feel Better App.app */,
+				C7723EE52CED67680088BE9E /* Feel Better AppTests.xctest */,
+				C7723EEF2CED67680088BE9E /* Feel Better AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7723ECF2CED67660088BE9E /* Feel Better App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7723EF92CED67680088BE9E /* Build configuration list for PBXNativeTarget "Feel Better App" */;
+			buildPhases = (
+				C7723ECC2CED67660088BE9E /* Sources */,
+				C7723ECD2CED67660088BE9E /* Frameworks */,
+				C7723ECE2CED67660088BE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7723ED22CED67660088BE9E /* Feel Better App */,
+			);
+			name = "Feel Better App";
+			packageProductDependencies = (
+			);
+			productName = "Feel Better App";
+			productReference = C7723ED02CED67660088BE9E /* Feel Better App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7723EE42CED67680088BE9E /* Feel Better AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7723EFC2CED67680088BE9E /* Build configuration list for PBXNativeTarget "Feel Better AppTests" */;
+			buildPhases = (
+				C7723EE12CED67680088BE9E /* Sources */,
+				C7723EE22CED67680088BE9E /* Frameworks */,
+				C7723EE32CED67680088BE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7723EE72CED67680088BE9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7723EE82CED67680088BE9E /* Feel Better AppTests */,
+			);
+			name = "Feel Better AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Feel Better AppTests";
+			productReference = C7723EE52CED67680088BE9E /* Feel Better AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7723EEE2CED67680088BE9E /* Feel Better AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7723EFF2CED67680088BE9E /* Build configuration list for PBXNativeTarget "Feel Better AppUITests" */;
+			buildPhases = (
+				C7723EEB2CED67680088BE9E /* Sources */,
+				C7723EEC2CED67680088BE9E /* Frameworks */,
+				C7723EED2CED67680088BE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7723EF12CED67680088BE9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7723EF22CED67680088BE9E /* Feel Better AppUITests */,
+			);
+			name = "Feel Better AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Feel Better AppUITests";
+			productReference = C7723EEF2CED67680088BE9E /* Feel Better AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7723EC82CED67660088BE9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					C7723ECF2CED67660088BE9E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					C7723EE42CED67680088BE9E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C7723ECF2CED67660088BE9E;
+					};
+					C7723EEE2CED67680088BE9E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = C7723ECF2CED67660088BE9E;
+					};
+				};
+			};
+			buildConfigurationList = C7723ECB2CED67660088BE9E /* Build configuration list for PBXProject "Feel Better App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7723EC72CED67660088BE9E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D79497222CFFDDA3007FDF52 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7723ED12CED67660088BE9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7723ECF2CED67660088BE9E /* Feel Better App */,
+				C7723EE42CED67680088BE9E /* Feel Better AppTests */,
+				C7723EEE2CED67680088BE9E /* Feel Better AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7723ECE2CED67660088BE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7723EE32CED67680088BE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7723EED2CED67680088BE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7723ECC2CED67660088BE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7723EE12CED67680088BE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7723EEB2CED67680088BE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7723EE72CED67680088BE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7723ECF2CED67660088BE9E /* Feel Better App */;
+			targetProxy = C7723EE62CED67680088BE9E /* PBXContainerItemProxy */;
+		};
+		C7723EF12CED67680088BE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7723ECF2CED67660088BE9E /* Feel Better App */;
+			targetProxy = C7723EF02CED67680088BE9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7723EF72CED67680088BE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7723EF82CED67680088BE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7723EFA2CED67680088BE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Feel Better App/Preview Content\"";
+				DEVELOPMENT_TEAM = 28VRZ6TKJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadia-khan.Feel-Better-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7723EFB2CED67680088BE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Feel Better App/Preview Content\"";
+				DEVELOPMENT_TEAM = 28VRZ6TKJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadia-khan.Feel-Better-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7723EFD2CED67680088BE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28VRZ6TKJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadia-khan.Feel-Better-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feel Better App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Feel Better App";
+			};
+			name = Debug;
+		};
+		C7723EFE2CED67680088BE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28VRZ6TKJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadia-khan.Feel-Better-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feel Better App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Feel Better App";
+			};
+			name = Release;
+		};
+		C7723F002CED67680088BE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28VRZ6TKJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadia-khan.Feel-Better-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Feel Better App";
+			};
+			name = Debug;
+		};
+		C7723F012CED67680088BE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28VRZ6TKJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sadia-khan.Feel-Better-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Feel Better App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7723ECB2CED67660088BE9E /* Build configuration list for PBXProject "Feel Better App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7723EF72CED67680088BE9E /* Debug */,
+				C7723EF82CED67680088BE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7723EF92CED67680088BE9E /* Build configuration list for PBXNativeTarget "Feel Better App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7723EFA2CED67680088BE9E /* Debug */,
+				C7723EFB2CED67680088BE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7723EFC2CED67680088BE9E /* Build configuration list for PBXNativeTarget "Feel Better AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7723EFD2CED67680088BE9E /* Debug */,
+				C7723EFE2CED67680088BE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7723EFF2CED67680088BE9E /* Build configuration list for PBXNativeTarget "Feel Better AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7723F002CED67680088BE9E /* Debug */,
+				C7723F012CED67680088BE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D79497222CFFDDA3007FDF52 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C7723EC82CED67660088BE9E /* Project object */;
+}
