@@ -99,15 +99,21 @@ struct MainScreen: View {
     
     private func loadRandomEntry() {
         let fetchRequest: NSFetchRequest<JournalEntry> = JournalEntry.fetchRequest()
-        fetchRequest.fetchLimit = 1
-        fetchRequest.resultType = .managedObjectResultType
-        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "date", ascending: false)]
-        
+
+        // Fetch all entries
         do {
             let results = try viewContext.fetch(fetchRequest)
-            randomEntry = results.first
+
+            // If there are entries, randomly select one
+            if !results.isEmpty {
+                let randomIndex = Int.random(in: 0..<results.count)
+                randomEntry = results[randomIndex]
+            } else {
+                // Handle the case where there are no entries
+                print("No journal entries found.")
+            }
         } catch {
-            print("Failed to fetch random journal entry: \(error.localizedDescription)")
+            print("Failed to fetch journal entries: \(error.localizedDescription)")
         }
     }
     

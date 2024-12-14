@@ -13,6 +13,8 @@ struct JournalEntryDetailScreen: View {
     
     @State private var title: String
     @State private var entry: String
+    @State private var photos: Data? // Store photo data as Data
+    @State private var videos: Data? // Store video URL
     @State private var showDeleteConfirmation = false
     
     private var journalEntry: JournalEntry
@@ -21,6 +23,8 @@ struct JournalEntryDetailScreen: View {
         self.journalEntry = journalEntry
         _title = State(initialValue: journalEntry.title ?? "Untitled")
         _entry = State(initialValue: journalEntry.entry ?? "")
+        _photos = State(initialValue: journalEntry.photos)
+        _videos = State(initialValue: journalEntry.videos)
     }
     
     var body: some View {
@@ -30,6 +34,17 @@ struct JournalEntryDetailScreen: View {
                 TextEditor(text: $entry)
                     .frame(height: 200)
                     .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.gray, lineWidth: 1))
+            }
+            
+            Section(header: Text("Attachments")) {
+                if let photos = photos {
+                    Image(uiImage: UIImage(data: photos)!) // Assuming photos are stored as Data
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100, height: 100)
+                } else {
+                    Text("No Photos Attached")
+                }
             }
             
             Section {
