@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Screen for viewing and editing the details of a specific journal entry
 struct JournalEntryDetailScreen: View {
     @Environment(\.managedObjectContext) private var viewContext
     @Environment(\.dismiss) private var dismiss
@@ -18,7 +19,8 @@ struct JournalEntryDetailScreen: View {
     @State private var showDeleteConfirmation = false
     
     private var journalEntry: JournalEntry
-    
+
+    // Initialize the screen with the given journal entry
     init(journalEntry: JournalEntry) {
         self.journalEntry = journalEntry
         _title = State(initialValue: journalEntry.title ?? "Untitled")
@@ -28,6 +30,7 @@ struct JournalEntryDetailScreen: View {
     }
     
     var body: some View {
+        // Form layout for displaying and editing the journal entry
         Form {
             Section(header: Text("Edit Details")) {
                 TextField("Title", text: $title)
@@ -37,6 +40,7 @@ struct JournalEntryDetailScreen: View {
             }
             
             Section(header: Text("Attachments")) {
+                // Display attached photo if available
                 if let photos = photos {
                     Image(uiImage: UIImage(data: photos)!) // Assuming photos are stored as Data
                         .resizable()
@@ -69,7 +73,8 @@ struct JournalEntryDetailScreen: View {
             Button("Cancel", role: .cancel) {}
         }
     }
-    
+
+    // Save changes to the journal entry
     private func saveChanges() {
         journalEntry.title = title
         journalEntry.entry = entry
@@ -80,7 +85,8 @@ struct JournalEntryDetailScreen: View {
             print("Failed to save changes: \(error.localizedDescription)")
         }
     }
-    
+
+    // Delete the journal entry from Core Data
     private func deleteEntry() {
         viewContext.delete(journalEntry)
         do {
