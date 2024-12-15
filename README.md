@@ -1,5 +1,7 @@
 # FeelBetterApp
-##By Andreia Shin and Sadia 
+CPSC 411-06: Computer Science Mobile Dev Programming
+Final Project Report, Spring Semester 2024
+Andreia Shin and Sadia 
 
 # Project Setup Guide
 
@@ -16,11 +18,6 @@ Ensure the following prerequisites are met:
 
 ## Setup Dependencies
 Navigate to the project directory and install any required dependencies:
-```bash
-cd <project-directory>
-pod install
-```
-Refer to any additional README or setup files in the repository for further instructions.
 
 ## Open the Project
 Depending on the project setup, open the appropriate file in Xcode:
