@@ -8,6 +8,7 @@
 import SwiftUI
 import PhotosUI
 
+// Main screen for adding a new journal entry, including text, photos, and videos
 struct AddJournalEntryScreen: View {
     @Environment(\.managedObjectContext) private var viewContext
     @Environment(\.dismiss) private var dismiss
@@ -22,6 +23,7 @@ struct AddJournalEntryScreen: View {
     @State private var selectedVideoURL: URL?
 
     var body: some View {
+        // Form layout for user input and media attachments
         Form {
             Section(header: Text("Journal Details")) {
                 TextField("Title", text: $title)
@@ -66,6 +68,7 @@ struct AddJournalEntryScreen: View {
         }
     }
 
+    // Saves a new journal entry to the Core Data store
     private func addJournalEntry() {
         let newEntry = JournalEntry(context: viewContext)
         newEntry.title = title
@@ -83,6 +86,7 @@ struct AddJournalEntryScreen: View {
     }
 }
 
+// Custom photo picker component that uses PHPickerViewController for image selection
 struct PhotoPicker: UIViewControllerRepresentable {
     @Binding var selection: UIImage?
 
@@ -95,7 +99,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
         picker.delegate = context.coordinator
         return picker
     }
-
+    
     func updateUIViewController(_ uiViewController: PHPickerViewController, context: Context) {
     }
 
@@ -103,6 +107,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
         Coordinator(self)
     }
 
+    // Coordinator for managing photo picker selection events
     class Coordinator: NSObject, PHPickerViewControllerDelegate {
         let parent: PhotoPicker
 
@@ -125,6 +130,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
     }
 }
 
+// Custom video picker component that uses UIDocumentPickerViewController for video file selection
 struct VideoPicker: UIViewControllerRepresentable {
     @Binding var selection: URL?
     
@@ -140,7 +146,8 @@ struct VideoPicker: UIViewControllerRepresentable {
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
-    
+
+    // Coordinator for managing video picker selection events
     class Coordinator: NSObject, UIDocumentPickerDelegate {
         let parent: VideoPicker
         
